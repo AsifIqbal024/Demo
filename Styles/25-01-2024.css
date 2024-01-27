@@ -1,0 +1,55 @@
+.topnav {
+    display: block;
+    background-color: beige;
+    text-align: right;
+    padding-right: 100px;
+}
+.topnav2 {
+    display: flex;
+    position: relative;
+}
+.a {
+    display: inline-block;
+    margin: 10px;
+    font-size: x-large;
+    font-family: arial;
+}
+.logo {
+    padding-top: 10px;
+}
+.b {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-large;
+    font-family: arial;
+    padding-bottom: 30px;
+}
+.mark {
+    font-size: xx-large ;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.navitems {
+    padding-left: 100px;
+}
+.icons {
+    font-size: xx-large;
+    text-align: right;
+    position: absolute;
+    right: 100px;
+    margin-top: 30px;
+}
+.topnav2:hover {
+    background-color: aqua;
+}
+.ic {
+    margin: 0px 10px;
+}
+.body {
+    text-align: center;
+}
+.body1 {
+    font-size: 75px;
+}

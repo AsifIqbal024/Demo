@@ -1,0 +1,12 @@
+table {background-image: radial-gradient(dodgerblue , yellow);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+border-top: dashed;
+border-bottom: dotted;
+border-left: double;
+border-width: 2px 4px;
+}
+.mp {margin: 35px;
+padding: 10px;}
+span.mp {border-style: solid; border-radius: 15px; border-color: blue;}

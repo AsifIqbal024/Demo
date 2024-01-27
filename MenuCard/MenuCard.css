@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    align-content: center;
+}
+.container {
+    display: flexbox;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+}
+.wraper {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 900;
+    color:darkblue;
+}
+header {
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+}
+.backgroundimg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.25;
+}
+.cappuccino , .espresso , .latte , .americano , .doppio , .mocha , .crossiant , .burrito , .wedges {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cappuccinoimg , .espressoimg , .latteimg , .americanoimg , .doppioimg , .mochaimg , .crossiantimg , .burritoimg , .wedgesimg {
+    opacity: 0.3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cappuccino:hover .cappuccinoimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.espresso:hover .espressoimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.latte:hover .latteimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.americano:hover .americanoimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.doppio:hover .doppioimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.mocha:hover .mochaimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.crossiant:hover .crossiantimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.burrito:hover .burritoimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.wedges:hover .wedgesimg{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.cappuccinoname , .cappuccinoprice , .espressoname , .espressoprice , .lattename , .latteprice , .americanoname , .americanoprice , .doppioname , .doppioprice , .mochaname , .mochaprice , .crossiantname , .crossiantprice , .burritoname , .burritoprice , .wedgesname , .wedgesprice {
+display: block;
+background-color: white;
+}
+.price {
+    border-top: 1px black solid;
+    background-color: skyblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.price:hover {
+    background-color: dodgerblue;
+}
+.section1 {
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+    color: burlywood;
+    background-color: brown;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.section2 {
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+    color: burlywood;
+    background-color: brown;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .nav {
+    width: 100%;
+  }

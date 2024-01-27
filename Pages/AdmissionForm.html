@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table , th , td {border:1px solid yellowgreen}
+        table {border-collapse: collapse; width: auto;}
+        td {text-align:left;}
+        h1 {text-align: center; color: brown; background-color: rgb(199, 165, 141);}
+        #schoolname{color: chartreuse;}
+        #situateddate{background-color: darkcyan; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+        #schoolname {border-radius : 25px}
+    </style>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="schoolname" style="align-items: center;"><b>Rajshahi Collegiate School</b></h1>
+    <h1 id="situateddate">Situated in 1828</h1>
+       <hr>
+       <br>
+    <table style="width:100%">
+        <form action="A">
+        <tr>
+            <th colspan="2" style="font-size: xx-large; color: blue;"><b>Admission Form</b></th>
+        </tr>
+        <tr>
+            <td><label for="name">Full Name</label></td>
+            <td><input type="text" placeholder="First Name" required> <input type="text" placeholder="Last Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="Father's Name">Father's Name</label></td>
+            <td><input type="text" placeholder="Your Father's Name"id="" required></td>
+        </tr>
+        <tr>
+            <td><label for="Mother's Name"> Mother's Name</label></td>
+            <td><input type="text" placeholder="Your Mother's Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="DOB">Date Of Birth</label></td>
+            <td><input type="date" required></td>
+        </tr>
+        <tr>
+            <td>Admission Class</td>
+            <td><input type="radio" name="Class" id="Class" value="1"required>
+            <label for="Class">Class 01</label><br>
+            <input type="radio" name="Class" id="Class" value="1">
+            <label for="Class">Class 02</label><br>
+            <input type="radio" name="Class" id="Class" value="1">
+            <label for="Class">Class 03</label></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" placeholder="House No/Street Name">
+            <input type="text" placeholder="Village" required><br>
+        <input type="text" placeholder="Post Office" required>
+        <input type="text" placeholder="Postal Code" required></td>
+        </tr>
+        <tr>
+            <td> Concact Number</td>
+            <td><input type="text" placeholder="Mobile Number" maxlength="11" required></td>
+        </tr>
+        <tr>
+            <td><label for="">E-Mail</label></td>
+            <td><input type="email" placeholder="Your E-Mail Here" required></td>
+        </tr>
+        <tr>
+            <td><label for="a">Gender</label></td>
+            <td style="text-align: center; background-color: cadetblue;"><select name="Gender" id="Gender">
+                <option value="Non">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><Label>Shift</Label></td>
+            <td><input type="checkbox" required value="Morning" id="Morning" name="Morning">
+                <label for="Morning">Morning</label>
+                <input type="checkbox" value="Day" id="Day" name="Day">
+                <label for="Day">Day</label>
+                <input type="checkbox" value="Evening" id="Evening" name="Evening">
+                <label for="Evening">Evening</label>            
+        </tr>
+
+    </table>
+    <br>
+    <div style="text-align: center;"><button style="text-align: center; color: blue; background-color: chocolate; padding: 25px;" type="submit" autofocus>Submit The Form</button></div>
+        </form>
+    </body>
+</html>

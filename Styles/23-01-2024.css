@@ -1,0 +1,18 @@
+p.a {
+    font: 15px arial , sans-serif;
+}
+p.b {
+    font: italic small-caps bold 12px/30px georgia , serif;
+}
+.icon{
+    color: yellowgreen;
+    font-size:xx-large ;
+}
+@font-face {
+    font-family: brain-icon;
+    src: url(../Icons/brain-solid.svg);
+}
+.fb {
+    color: dodgerblue;
+    font-size: xx-large;
+}
